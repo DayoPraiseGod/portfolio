@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+
+
+/* HOME SECTION START */
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url('images/banner.jpg'), no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.home .navbar{
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+.home .navbar .logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.home .navbar .logo span{
+    color: crimson;
+}
+
+.home .navbar .menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.home .navbar .menu li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.home .navbar .menu li a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+
+.home .home-content{
+    max-width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #fff;
+}
+
+.home .home-content .text-1{
+    font-size: 20px;
+}
+
+
+.home .home-content .text-2{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0px  0px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.home .home-content .text-3{
+    font-size: 26px;
+}
+
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 600;
+}
+
+.home .home-content .home-btns{
+    display: inline-block;
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.home .home-content .home-btns .btn{
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.home .home-content .home-btns #hire-btn{
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: crimson;
+    color: #fff;
+    transition: .4s;
+}
+
+.home .home-content .home-btns #hire-btn:hover{
+    cursor: pointer;
+    background: none;
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+
+
+/* TITLE SECTION START */
+.about .title{
+    max-width: 90%;
+    margin: auto;
+    color: #111;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about .about-content{
+    display: flex;
+    margin: 20px 100px;
+}
+
+.about .about-content img{
+    max-width: 300px;
+    height: 300px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
+
+.about .about-content .about-text{
+    margin-left: 60px;
+}
+
+.about .about-content .about-text h3{
+    font-size: 26px;
+}
+
+.about .about-content .about-text p{
+    font-size: 16px;
+}
+
+.about .about-content .about-text .btn{
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: crimson;
+    color: #fff;
+    transition: .4s;
+}
+.about .about-content .about-text .btn:hover{
+    cursor: pointer;
+    background: none;
+    border: 2px solid crimson;
+    color: crimson;
+}.
+
+
+/* ---------------------------STYLING SERVICES SECTION --------------------------------------- */
+
+.services{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.services .service-content{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.services .service-content .our-services{
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.services .service-content .our-services h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.services .service-content .our-services p{
+    font-size: 16px;
+}
+
+.services .title{
+    max-width: 90%;
+    margin: auto;
+    color: #111;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+
+
+/* CONTACT SECTION STYLING */
+
+
+.contact{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(89, 124, 113);
+}
+
+.contact .title{
+    max-width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #222;
+}
+
+.contact .social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact .social a{
+    margin: 10px 40px;
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#fb{
+    border: 3px solid blue;
+    color: blue;
+    transition: 0.5s;
+}
+#fb:hover{
+    border: 3px solid #eee;
+    color: #eee;
+    cursor: pointer;
+}
+
+#ig{
+    border: 3px solid #990000;
+    color: #990000;
+    transition: 0.5s;
+}
+#ig:hover{
+    border: 3px solid #eee;
+    color: #eee;
+    cursor: pointer;
+}
+
+#wa{
+    border: 3px solid green;
+    color: green;
+    transition: 0.5s;
+}
+#wa:hover{
+    border: 3px solid #eee;
+    color: #eee;
+    cursor: pointer;
+}
+
+.info{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    bottom: 0px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+
+
+
+
+
+/* SOME MEDIA QUARIES */
+@media (max-width: 700px) {
+    .home .navbar .menu li{
+        display: block;
+    }
+
+    .about .about-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .about-content .about-text{
+        margin: 20px 0%;
+
+    }
+
+    .about .about-content{
+        margin: 20px;
+    }
+
+        .home .home-content .home-btns{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    } 
+
+    .home .home-content .home-btns .btn{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .about .about-content .about-text .btn{
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 372px) {
+    .home .home-content .text-3 span{
+        display: block;
+    }
+    
+}
